@@ -1,0 +1,37 @@
+
+Contreras Garzón Logan Mateo 24/09/26 5°E Actividad 5
+
+*Bitácora del Repositorio Git*
+
+Durante esta práctica aprendí a crear y utilizar un repositorio Git para llevar un mejor control de los archivos y cambios realizados en un proyecto. Git para llevar un mejor control y administrar diferentes versiones de un proyecto y mantener un historial de las modificaciones realizadas. Para trabajar con Git también se puede utilizar GitHub que permite almacenar repositorios en línea y acceder a ellos desde diferentes dispositivos.
+
+*Uso básico*
+
+1. Crear o clonar un repositorio
+   o Crear uno desde una carpeta `git init`
+   o Descargar uno que ya existe `git clone <URL_DEL_REPOSITORIO>`
+
+2. Agregar o modificar archivos
+   Trabajas normalmente en tu archivo, escribes código o modificas los existentes.
+
+3. Revisar los cambios
+   `git status` esto demuestra qué archivos fueron modificados, creados o eliminados.
+
+4. Preparar los cambios
+   `git add .` esto selecciona los cambios que quieres guardar
+
+5. Crear un commit
+   `git commit -m "Descripción de los cambios"` El commit guarda una versión de tu proyecto con un mensaje que explica qué hiciste.
+
+6. Subir los cambios a GitHub
+   `git push` Esto envía tus cambios desde tu computadora al repositorio remoto.
+
+7. Descargas cambios de otros usuarios
+   Si otras personas modificaron el repositorio: `git pull` esto trae los cambios más recientes a tu computadora
+
+*Ejemplo*
+
+El flujo sería
+Modificar archivos -> `git status` -> `git add .` -> `git commit` -> `git push`
+Y para obtener cambios:
+`git pull` -> Modificar -> `git add` -> `git commit` -> `git push`
